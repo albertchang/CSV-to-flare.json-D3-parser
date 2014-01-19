@@ -15,10 +15,18 @@ Dependencies include the [json-simple](http://code.google.com/p/json-simple/) ja
 Usage
 -----
 Usage is through the command line; run the program similar to any other java
-application with command line arguments: `java D3Taxonomy <input file> <delimiter>`. 
-Program will both print final JSON string to the console as well as save it file 
-"flare.json" in the present working directory. The source may be modified as 
-necesary for special use cases.
+application with command line arguments: 
+`java D3Taxonomy <input file> <delimiter>`. 
+
+###### Example run:
+(assuming all required files are in the same working directory)
+
+`$ javac -cp json-simple-1.1.1.jar D3Taxonomy.java`
+`$ java -cp json-simple-1.1.1.jar: D3Taxonomy taxonomy_en-US.txt " > "`
+
+Program will both print final JSON string to the console as well as save it in 
+file "flare.json" in the present working directory. The source may be modified 
+as necesary for special use cases.
 
 Any text delimiter is compatible, examples include `,` (commas) for comma
 separated values, or ` > ` for plain text files. 
