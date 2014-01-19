@@ -2,10 +2,13 @@ CSV to flare.json
 =====
 Converts taxonomy data (csv/txt) to multilevel flare.json data for `D3.js` visualizations
 
+![Sample Usecase image](http://f.cl.ly/items/0R1N1q0f2Y1x1Y390l3P/D3JS.jpg)
+
 About
 -----
-This program converts text/csv categorical data into the flare hierarchy JSON 
-format accepted by many popular `D3.js` visualizations (i.e. collapsible tree). 
+This program converts text/csv categorical data into the [flare](http://flare.prefuse.org/) 
+class hierarchy JSON format accepted by many popular `D3.js` visualizations 
+(i.e. collapsible tree). 
 
 Dependencies include the [json-simple](http://code.google.com/p/json-simple/) java library. 
 
